@@ -3,7 +3,11 @@
   <groupId>org.DemoAmazon</groupId>
   <artifactId>DemoAmazon</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <build>
+    <properties>
+        <maven.compiler.source>20</maven.compiler.source>
+        <maven.compiler.target>20</maven.compiler.target>
+    </properties>
+    <build>
     <pluginManagement>
     
   		<plugins>

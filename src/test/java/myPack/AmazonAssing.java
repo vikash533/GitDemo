@@ -36,6 +36,7 @@ public class AmazonAssing {
 		 js.executeScript("window.scrollBy(0,"+y2+")");
 		 driver.findElement(By.xpath("//span[.='25% Off or more']")).click();
 		 driver.findElement(By.xpath("//span[contains(text(),\"Analog Men's Watch (Dial Colored Strap)\")]")).click();
+		 System.out.println("Person y comment");
 		 
 	}
 	void tearDown() throws InterruptedException {
